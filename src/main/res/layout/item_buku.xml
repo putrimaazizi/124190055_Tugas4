@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cetak_foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/cetak_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/arima_madurai_thin"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/cetak_foto"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cetak_foto"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="93dp"
+        android:text="Share"
+        android:fontFamily="@font/arima_madurai_thin">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_lihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_share"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="93dp"
+        android:text="Lihat"
+        android:fontFamily="@font/arima_madurai_thin">
+    </Button>
+
+</RelativeLayout>
